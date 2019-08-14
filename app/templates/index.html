@@ -2,8 +2,7 @@
 
 {% block content %}
 
-    <h2>Hello {{ user.fname }} {{ user.lname }}</h2>
-    <p>Your username is {{ user.username }}</p>
+    <h1>Hi, {{ current_user.username }}!</h1>
     <hr />
     <h3>Recent posts</h3>
     {% for post in posts %}

@@ -1,2 +1,2 @@
 ### Python Dependencies
-pip install Flask Flask-SQLAlchemy Flask-WTF flask-migrate
+pip install Flask Flask-SQLAlchemy Flask-WTF flask-migrate flask-login
